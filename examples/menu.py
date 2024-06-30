@@ -1,0 +1,26 @@
+from gameplus import menu
+menu([
+    ("a",lambda:print("l")),
+    ("b",lambda:print('m')),
+    ("c",lambda:print('n')),
+    ("d",lambda:print('o')),
+    ("e",lambda:print('p')),
+    ("f",lambda:print('q')),
+    ("g",lambda:print('r')),
+    ("h",lambda:print('s')),
+    ("i",lambda:print('t')),
+    ("j",lambda:print('u')),
+    ("k",lambda:print('v')),
+    ("l",lambda:print('w')),
+    ("m",lambda:print('x')),
+    ("n",lambda:print('y')),
+    ("o",lambda:print('z')),
+    ("p",lambda:print('n')),
+    ("q",lambda:print('o')),
+    ("r",lambda:print('w')),
+    ("s",lambda:print('i')),
+    ("t",lambda:print('k')),
+    ("u",lambda:print('n')),
+    ("v",lambda:print('o'))
+],mode="input")
+menu({"asd":("as",lambda:print('z')),"jas":("hjksd",lambda:print('a'))})
